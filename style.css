@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.navbar {
-    float: right;
+
+a.active, a:hover{
+
+    background: #1b9bff;
+    transition: .5s;
 }
