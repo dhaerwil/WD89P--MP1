@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.bigimage {
+
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(/pictures/2205_w037_n003_385b_p1_385.jpg);
+    background-size: cover;
+
+}
+
+.overlay {
+
+    width: 100%;
+    height: 100%;
+    font-size: xx-large;
+    color: rgb(185, 50, 50);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba (0,0,0,0.5);
+
+}
+
+.navbar {
+    background-color: rgb(194, 194, 194); /* Change the background color as needed */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Push the navbar items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px; /* Adjust spacing between menu items */
+}
+
+.navbar-nav .nav-item:first-child {
+    margin-left: 0; /* Remove left margin for the first menu item */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Change the text color as needed */
+}
