@@ -15,6 +15,30 @@
             font-size: 60px;
             font-weight: 100%;
             margin-bottom: 20px;
+        
+        }
+
+        .glowing-text {
+            font-size: 80x;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 100px;
+            animation: glowing 1s infinite alternate;
+        }
+        
+        
+        @keyframes glowing {
+           
+            1% {
+                color: rgb(55, 131, 161);
+                text-shadow: 0 0 50px rgb(185, 50, 50);
+            }
+
+            100% {
+                color: rgb(185, 50, 50);
+                text-shadow: 0 0 50px rgb(55, 131, 161);
+            }
         }
 
 </style>
@@ -35,7 +59,7 @@
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="/Pages/services.html">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Pages/contact.html">Contact</a>
@@ -54,7 +78,7 @@
     <section class="bigimage">
         <div class="overlay">
 
-                    <h1>Welcome to Handy Helpers</h1>
+                    <h1 class="glowing-text">Welcome to Handy Helpers</h1>
                     <p>Your trusted wizards for all your property maintenance needs.</p>
                     <br>
                     <br>
