@@ -3,26 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
-    <!-- Link to Bootstrap CSS from CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <style>
-        /* Custom CSS for styling the message */
-        .thank-you-container {
-            text-align: center;
-            margin-top: 100px;
-        }
-        .thank-you-message {
-            font-size: 24px;
-            font-weight: bold;
-            color: #007BFF;
+        /* Custom CSS to center the button */
+        .center-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* This centers the button vertically in the viewport */
         }
     </style>
+    <title>Center Submit Button</title>
 </head>
 <body>
-    <div class="container thank-you-container">
-        <div class="thank-you-message">
-            Thank you. Your request has been sent.
+    <div class="container">
+        <div class="row">
+            <div class="col-12 center-button">
+                <form>
+                    <!-- Your form fields go here -->
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>
