@@ -1,0 +1,44 @@
+
+p {
+color:#f5f5dc;
+font-size:50px;
+text-align: center;
+margin-top: 20px; 
+}
+body{
+background-color:#fffacd;
+font-size:100%;
+min-width:800px;
+}
+.square{
+    height: 100px;
+    width: 100%;
+    position:relative;
+    left:-20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:#0066cc;
+    font-size:1.0em;
+
+}
+#wrapper{
+width:100%;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.A, .B, .C, .D{
+width:300px;
+height:200px;
+float:left;
+border:1px solid black;
+margin-right:10px;
+margin-bottom:40px; 
+}
+.D{
+width:270px;
+}
+#bottom p{
+ color:black;
+ font-size:15px;
+}
+</style>

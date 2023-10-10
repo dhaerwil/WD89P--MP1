@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar {
+    background-color: rgb(194, 194, 194); /* Change the background color as needed */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Push the navbar items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px; /* Adjust spacing between menu items */
+}
+
+.navbar-nav .nav-item:first-child {
+    margin-left: 0; /* Remove left margin for the first menu item */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Change the text color as needed */
+}
