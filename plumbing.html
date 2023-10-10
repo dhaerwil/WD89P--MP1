@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style2.css">
+    <title>Handy Helpers</title>
+
+</head>
+
+<style>
+
+        *{
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        p {
+
+            padding-left: 3%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+    
+        h1 {
+            font-size: 30px;
+            font-weight: 100%;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 1000;
+            text-align: center;
+        }
+
+        .button {
+
+           
+            height: 100%;
+            width: 30%;
+        }
+
+        .center-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .bigimage {
+
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-image: url(/pictures/plumbing00.jpg);
+            background-size: cover;
+        
+            
+        }
+
+        
+        .overlay {
+
+
+            font-size: medium;
+            color: rgb(185, 50, 50);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 5%;
+            padding-right: 5%;
+            background-color: rgba (0,0,0,0.5);
+
+
+        }
+        .glowing-text {
+            
+            animation: glowing 1s infinite alternate;
+        }
+
+        
+        @keyframes glowing {
+       
+       1% {
+           color: rgb(55, 131, 161);
+           text-shadow: 0 0 50px rgb(185, 50, 50);
+       }
+
+       100% {
+           color: rgb(185, 50, 50);
+           text-shadow: 0 0 50px rgb(55, 131, 161);
+       }
+       }
+
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/Pages/services.html">Return</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+<br>
+
+
+    
+    <section class="bigimage">
+        <div class="overlay">
+
+            <br>
+            <br>
+            <br>
+
+                    <h1 class="glowing-text">Comprehensive Plumbing Services</h1>
+
+                   
+                    <p>
+                        <strong>1.</strong> Expert Plumbing Solutions: Our licensed plumbers are equipped to tackle all plumbing challenges, from minor repairs to complex installations. Whether it's fixing leaks, unclogging drains, or upgrading your plumbing system, we deliver top-notch craftsmanship.</p>
+            
+                    <p>
+                        <strong>2.</strong> Property Inspections: We conduct thorough property assessments to proactively identify maintenance needs, ensuring your property remains in peak condition year-round.</p>
+            
+                    <p>
+                        <strong>3.</strong> Maintenance and Repairs: Our comprehensive property maintenance services cover plumbing, HVAC, electrical systems, and more. We promptly address maintenance issues and provide efficient repairs to minimize disruptions.</p>
+            
+                    <p>
+                        <strong>4.</strong> Renovations and Upgrades: Transform your property with our renovation and upgrade services. From kitchen and bathroom remodels to energy-efficient plumbing enhancements, we enhance both the functionality and value of your space.</p>
+            
+                    <p>
+                        <strong>5.</strong> Emergency Services: Plumbing emergencies can strike at any time. We offer 24/7 emergency services, providing peace of mind that your property is protected, day or night.</p>
+            
+                    
+                        <br>
+
+                       
+                        <a href="maintenance form.html" class="btn btn-primary" style="width:50%; margin-left:22%; font-size: 15px;">Submit a Maintenance Request</a>
+                       <br>
+                       <br>
+                       
+            </div>
+    
+    
+    </body>
+    </html>

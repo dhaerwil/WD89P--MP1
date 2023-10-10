@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style2.css">
+    <title>About Us</title>
+
+</head>
+
+<style>
+
+        *{
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        p{
+
+        text-align: justify;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-weight: 600;
+        color: rgb(185, 50, 50);
+        font-size: 1vw;
+
+         }
+
+    
+
+        .bigimage {
+
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            background-image: url(/pictures/AboutUs22.jpg);
+            background-size: cover;
+
+        }
+
+        .overlay {
+
+            width: 100%;
+            height: 100%;
+            font-size: large;
+            color: rgb(185, 50, 50);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba (0,0,0,0.5);
+        
+        }
+
+         h1 {
+
+            font-size: 5vh;
+            font-weight: 100%;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 1000;
+            text-align: center;
+        
+        }
+
+        .glowing-text {
+            
+            animation: glowing 1s infinite alternate;
+        }
+        
+        
+        @keyframes glowing {
+           
+            1% {
+                color: rgb(55, 131, 161);
+                text-shadow: 0 0 50px rgb(185, 50, 50);
+            }
+
+            100% {
+                color: rgb(185, 50, 50);
+                text-shadow: 0 0 50px rgb(55, 131, 161);
+            }
+            }
+
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/Pages/index.html"><strong>Handy Helpers</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    
+    <section class="bigimage">
+        <div class="overlay">
+
+                    <h1 class="glowing-text">About Us</h1>
+                    
+                    
+                    <p>At Handy Helpers, we are dedicated to ensuring your property remains in top-notch condition. With years of experience in the property maintenance industry, we take pride in offering a wide range of services tailored to meet the unique needs of homeowners, landlords, and property managers. Our mission is to provide reliable, high-quality maintenance solutions that enhance the value and functionality of your property.</p>
+                    
+                    <br>
+
+                    <p>Our team of skilled professionals specializes in various aspects of property maintenance, including landscaping, plumbing, electrical repairs, HVAC maintenance, painting, and general upkeep. We understand that each property is unique, and we work closely with our clients to develop customized maintenance plans that suit their specific requirements and budget.</p>
+                    
+                    <br>
+
+                    <p>At Handy Helpers, customer satisfaction is at the heart of everything we do. We are committed to delivering exceptional service, ensuring your property not only looks its best but also operates smoothly. Trust us to be your reliable partner in maintaining and enhancing the longevity of your valuable investment.</p>
+
+                    <br>
+
+                    <p>Thank you for considering Handy Helpers as your property maintenance solution. We look forward to serving you and exceeding your expectations.</p>
+
+
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
